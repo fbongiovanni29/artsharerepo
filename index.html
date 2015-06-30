@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="art-share.js"></script>
+		<style>
+		body {font: normal 1em Helvetica;}
+		</style>
+	</head>
+	<body>
+		<h1>Create User</h1>
+			<form id='form-add-user'>
+				<p>
+					<label>e-mail</label>
+					<input type="text" id="email"></input>
+				</p>	
+				<p>
+					<label>First Name</label>
+					<input type="text" id="fname"></input>
+				</p>
+				<p>
+					<label>Last Name</label>
+					<input type="text" id="lname"></input>
+				</p>
+				<p>
+					<label>Password</label>
+					<input type="text" id="password"></input>
+				</p>
+				<button type="submit">Save User</button>
+			</form>	
+		<h1>Add Painting</h1>
+		<form id='form-add-painting'>
+			<p>
+				<label>Title:</label>
+				<input type="text" id="title"></input>
+			</p>
+			<p>
+				<label>Painting URL</label>
+				<input type="text" id="url"></input>
+			</p>
+			<button type="submit">Add Painting</button>
+		</form>
+			<h1>Delete Painting</h1>
+			<form id='form-delete-painting'>
+                        <p>
+                                <label>Painting</label>
+                                <input type="text" id="paintingId"></input>
+                        </p>
+                        <button type="submit">Delete Painting</button>
+
+		</form>
+		<div class="images"></div>
+		
+	</body>
+</html>
